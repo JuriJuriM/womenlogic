@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/womenlogic/static/css/main.c4bc9337.css",
+    "main.js": "/womenlogic/static/js/main.12d6832a.js",
+    "static/media/womens.png": "/womenlogic/static/media/womens.b2c925e287ee20550328.png",
+    "static/media/womenfone.png": "/womenlogic/static/media/womenfone.e481a8df1bff4cfdaa63.png",
+    "static/media/avatar.jpg": "/womenlogic/static/media/avatar.7fe549e4bf76a8d6c6de.jpg",
+    "index.html": "/womenlogic/index.html",
+    "main.c4bc9337.css.map": "/womenlogic/static/css/main.c4bc9337.css.map",
+    "main.12d6832a.js.map": "/womenlogic/static/js/main.12d6832a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4bc9337.css",
+    "static/js/main.12d6832a.js"
+  ]
+}
