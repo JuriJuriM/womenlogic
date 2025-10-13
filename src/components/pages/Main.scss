@@ -1,0 +1,43 @@
+.main {
+    padding-top: 80px;
+    &__title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: serif;
+    }
+    &__row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    &__column {
+        flex: 0 0 49.5%;
+    }
+    &__photo {
+        flex: 1 1 auto;
+    }
+    &__photo img {
+        max-width: 100%;
+    }
+    &__text {
+        font-size: 20px;
+        font-style: italic;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-indent: 20px;
+    }
+}
+
+.main::before {
+    content: "";
+    background: url(../../assets/img/womenfone.png);
+    position: fixed;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.4;
+}
