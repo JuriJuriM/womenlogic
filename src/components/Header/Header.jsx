@@ -4,7 +4,8 @@ import Burger from './menu.svg.png'
 import BurgerClose from './close-menu.png'
 import Logo from '../../assets/img/avatar.jpg'
 import Main from '../pages/Main.jsx'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+//import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 
 const Header = () => {
     const [isOpen, setOpen] = useState();
@@ -19,7 +20,7 @@ const Header = () => {
                         <nav className={`header__nav ${isOpen ? 'active' : ''}`}>
                             <ul className='header__nav-list'>
                                 <li className='header__nav-item'>
-                                    <a href='/'>Main</a>
+                                    <Link to='/'>Main</Link>
                                 </li>
                             </ul>
                         </nav>
@@ -29,11 +30,9 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <Router className='router'>
-                <Routes>
-                    <Route path='/' element={<Main />} />
-                </Routes>
-            </Router>
+            <Routes>
+                <Route path='/' element={<Main />} />
+            </Routes>
         </>
 
     )
